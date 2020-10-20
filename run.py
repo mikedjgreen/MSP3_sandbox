@@ -5,7 +5,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
-@app.route("/members")
+@app.route("/")
 def members():
     return render_template("members.html")
 

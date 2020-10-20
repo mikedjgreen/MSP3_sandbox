@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <title>Hello Flask</title>
-</head>
-    
-<body>
-        <nav>
-            <ul>
-                <li><a href="{{ url_for('members') }}">members</a></li>
-                <li><a href="{{ url_for('membership') }}">membership</a></li>
-            </ul>
-        </nav>
-    
-        <h1>Members Page</h1>
-</body>
-    
-</html>
+{% extends 'base.html' %} {% block content %}
+<h1>Members Page</h1>
+{% endblock %}

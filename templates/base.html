@@ -8,12 +8,13 @@
     <body>
         <nav>
             <ul>
-                <li><a href="#">members</a></li>
-                <li><a href="#">membership</a></li>
+                <li><a href="{{ url_for('members') }}">members</a></li>
+                <li><a href="{{ url_for('membership') }}">membership</a></li>
             </ul>
         </nav>
     
-        <h1>Home Page</h1>
+        {% block content %} {% endblock %}
+        
     </body>
     
     </html>
