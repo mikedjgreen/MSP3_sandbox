@@ -1,16 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
         <title>Hello Flask</title>
-    </head>
+</head>
     
-    <body>
+<body>
         <nav>
             <ul>
-                <li><a href="#">members</a></li>
-                <li><a href="#">membership</a></li>
+                <li><a href="{{ url_for('members')}}">members</a></li>
+                <li><a href="{{ url_for('membership')}}">membership</a></li>
             </ul>
         </nav>
     
         <h1>Membership Page</h1>
-    </body>
+</body>
     
-    </html>
+</html>
