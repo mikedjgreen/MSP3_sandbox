@@ -3,6 +3,14 @@
 
 <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
+    
+        {% with messages = get_flashed_messages() %} {% if messages %}
+        <ul class="flashes">
+            {% for message in messages %}
+            <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %} {% endwith %}
 
         <p>Want to become a member? Fill out the form below to send a message.</p>
 
