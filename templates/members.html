@@ -1,3 +1,18 @@
 {% extends 'base.html' %} {% block content %}
-<h1>Members Page</h1>
+<h2>{{ page_title }}</h2>
+<p>These are the current club's members with a brief description of their interests</p>
+
+{% for member in member_data %}
+<div class="row featurette">
+    <div class="col-md-7">
+        <h3>{{ member.name }}</h3>
+        <p>{{ member.bio }}</p>
+    </div>
+    <div class="col-md-5">
+        <img class="featurette-image img-responsive" src="{{ member.image_source }}" style="width:100%;" alt="Picture of {{ member.name }}">
+    </div>
+</div>
+<div class="featurette-divider"></div>
+{% endfor %}
+
 {% endblock %}

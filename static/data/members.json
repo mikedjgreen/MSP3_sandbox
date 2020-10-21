@@ -1,0 +1,13 @@
+[
+    {
+        "name":"Mike Green",
+        "bio":"Mike uses his pursuit of art as a therapy. His interests are mainly representative and figurative. Medium of choice is charcoal and acrylic.",
+        "image_source":"static/img/Cheap_Model.jpg"
+    },
+    {
+        "name":"Persephone Pootle",
+        "bio":"Persephone is mainly interested in abstract, non-representational works and presentations",
+        "image_source":"static/img/Antonia_VE_Day.jpg"
+
+    }
+]
