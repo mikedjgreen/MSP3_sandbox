@@ -4,6 +4,33 @@ Welcome Mike Green,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
 
+## Technologies Used
+
+In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+
+- [JavaScript](https://www.javascript.com/)
+    - For dynamic, front-end interaction on HTML forms.
+
+- [JQuery](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation and initialise MaterializeCSS components.
+
+- [Python 3](https://www.python.org/about/)    
+    - Programming language used to interact with a MongoDB database
+    - Password security via [werkzeug WSGI library](https://werkzeug.palletsprojects.com/en/1.0.x/utils/#module-werkzeug.security)
+    - [PyMongo library](https://pymongo.readthedocs.io/en/stable/index.html) used to link Python with MongoDB Atlas.
+
+- [Flask Framework](https://flask.palletsprojects.com/en/1.1.x/)
+    - A python framework that uses **[JINJA](https://www.fullstackpython.com/jinja2.html)** template engine.
+    - Trying out the **[login import](https://flask-login.readthedocs.io/en/latest/#how-it-works)**.
+
+- [Materialize Framework](https://materializecss.com/)
+    - A front-end, responsive design framework with a unified 'look and feel'.
+    - Using a [date picker](https://materializecss.com/pickers.html)
+
+- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+    -  Global cloud database service.
+
+
 ## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
